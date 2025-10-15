@@ -8,8 +8,8 @@
 body {
   font-family: Arial, Helvetica, Sans-serif;
   line-height: 1.6;
-  color: #ffffff;
-  background-color: #37393b;
+  color: rgb(255 255 255);
+  background-color: rgb(55 57 59);
   padding: 20px;
 }
 
@@ -20,6 +20,17 @@ p {
 header img {
   width: 3rem; 
   height: 3rem;  
+}
+
+.itemList {
+  display: flex;
+  text-align: center;
+}
+
+.itemListImages {
+  width: 30%;
+  padding: 15px;  
+  flex: 33.33%;
 }
 
 iframe {
@@ -43,7 +54,7 @@ iframe {
 }
 
 header {
-  background-color: #46484d;
+  background-color: rgb(70 72 77);
   color: white;
   padding: 1rem;
   text-align: center;
@@ -62,7 +73,7 @@ nav ul li {
 }
 
 li {
-  list-style-type: none;
+  padding-top: 8px;
 }
 
 nav a {
@@ -71,22 +82,22 @@ nav a {
 }
 
 a:link {
-  color: rgb(111, 111, 255);
-}
-
-a:hover {
-  border: ridge;
+  color: rgb(111, 209, 255);
 }
 
 a:visited {
-  color: rgb(146, 106, 211);
+  color: rgb(111, 178, 255);
+}
+
+.itemList img:hover {
+  border:2px solid rgb(223, 116, 50);
 }
 
 main {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #46484d;
+  background-color: rgb(70 72 77);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -96,20 +107,21 @@ section {
 }
 
 h1 {
-  outline: #ffffff;
+  outline: rgb(255 255 255);
 }
 
 h1, h2 {
-  color: #b35215;
+  color: rgb(179 82 21);
 }
 
 .navigation {
   text-align: center;
   margin: 5px;
+  padding: 1rem;
 }
 
 footer {
   text-align: center;
   margin: 20px;
-  color: #666;
+  color: rgb(102 102 102);
 }
