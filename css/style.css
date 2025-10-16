@@ -17,6 +17,19 @@ p {
   padding-top: 8px;
 }
 
+.section_title {
+  text-align: center;
+}
+
+.class_list p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.class_list h3 {
+  color: rgb(223, 116, 50);
+}
+
 header img {
   width: 3rem; 
   height: 3rem;  
@@ -33,11 +46,23 @@ header img {
   flex: 33.33%;
 }
 
+.changesList {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.class_images {
+  float: left;
+  width: 2.5rem;
+}
+
+
 iframe {
   padding: 1rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 90%;
 }
 
 .weapons_images {
@@ -81,6 +106,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  border: 2px solid rgb(111, 209, 255);
+}
+
 a:link {
   color: rgb(111, 209, 255);
 }
@@ -103,7 +132,7 @@ main {
 }
 
 section {
-  margin-bottom:auto ;
+  margin-bottom: auto ;
 }
 
 h1 {
@@ -118,6 +147,7 @@ h1, h2 {
   text-align: center;
   margin: 5px;
   padding: 1rem;
+  
 }
 
 footer {
