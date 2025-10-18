@@ -67,7 +67,6 @@ iframe {
 
 .weapons_images {
   width: 30%;
-  float: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -115,7 +114,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(111, 178, 255);
+  color: rgb(202, 111, 255);
 }
 
 .itemList img:hover {
